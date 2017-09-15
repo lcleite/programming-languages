@@ -1,0 +1,22 @@
+{
+  "name": "programming-langagues",
+  "version": "1.0.0",
+  "description": "TypeScript",
+  "author": "Leandro Leite",
+  "license": "ISC",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.ts --timeout 10000"
+  },
+  "dependencies": {
+    "typescript": "^2.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.4",
+    "ts-node": "^3.0.4",
+    "@types/chai": "^4.0.0",
+    "@types/mocha": "^2.2.41",
+    "@types/sinon": "^2.3.1"
+  }
+}
